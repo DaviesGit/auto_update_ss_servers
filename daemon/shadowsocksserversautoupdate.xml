@@ -1,0 +1,1 @@
+<service><id>shadowsocksserversautoupdate.exe</id><name>shadowsocks servers auto update</name><description>automatic update shadowsocks servers in background, using node.js</description><executable>node.exe</executable><arguments>--harmony "wrapper.js" -f "auto_run.js" -l "shadowsocks servers auto update" -g 0.25 -w 1 -r 3 -a n</arguments><logmode>rotate</logmode></service>
